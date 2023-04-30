@@ -1,11 +1,22 @@
-# Visualizing-US-Population-Data-with-PowerBI
+# Visualizing-US-Electric-Vegicle-Population-Data-with-PowerBI
 This project visualizes United States population data.
 ## Data Understanding
-The data for this visualization project was gotten from usafacts.org. It contains population data of the united states from 1900 to 2022. it includes demographics population data such as age groups, gender and race. This project will only use data from 2011 onwards. 
-## Data Preparation
-The data preparation is carried out in power query. The first step is to remove the data for years that is not needed (1900 - 2010). 
- This table shows data from 1900 before deletion. delete_years
- 
-This table shows data from 2011 after deleting the previous years data. kept_years
+This dataset shows the Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) that are currently registered through the Washington State Department of Licensing (DOL). it includes variables such as the model year of the vehicles, make of the vehicles, the range(i.e. distance they can travel), the type of EV (i.e. Battery Electric Vehicle or Plug-in Hybrid Electric Vehicle), and whether a vehicle is eligible as a clean alternative fuel vehicle. 
+[Data Source](https://www.kaggle.com/datasets/utkarshx27/electric-vehicle-population-data?resource=download)
+## Visualising the Data
+A dashboard is created showing an overview of electric vehicles registered through the Washington State Department of Licensing (DOL). 
+[dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzhmOGY2YTgtNWE4ZS00ZjA2LTk4MDQtODUxNjA5MGFkM2RiIiwidCI6IjUxYTBhNjljLTBlNGYtNGIzZC1iNjQyLTEyZTAxMzE5ODYzNSIsImMiOjh9) ![](dashboard.PNG)   
 
-The data is then seperated based on demographics such as age, gender and race. 
+There are four main charts in the dashboard. The first chart shows the number of cars registered by model year. Overall, There are more cars registered with model year 2022 than any other year.  
+
+![](model_year.PNG)  
+The second chart shows the number of cars registered by make (manufacturer). Tesla has more cars registered than any other manufacturer.  
+
+![](make.PNG)  
+The third chart shows the cars registered by the type of electric vehicle. There are more battery electric vehicles than plug-in hybrid electric vehicles.  
+
+![](type.PNG)  
+The last chart shows the ratio of electric cars registered that are eligible as a clean alternative fuel vehicle as against those that are not.  
+
+![](CAFV.PNG)  
+
