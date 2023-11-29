@@ -1,7 +1,7 @@
-# Visualizing-US-Electric-Vegicle-Population-Data-with-PowerBI
+# Visualizing-US-Electric-Vehicle-Population-Data-with-PowerBI
 This project visualizes United States population data.
 ## Data Understanding
-This dataset shows the Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) that are currently registered through the Washington State Department of Licensing (DOL). it includes variables such as the model year of the vehicles, make of the vehicles, the range(i.e. distance they can travel), the type of EV (i.e. Battery Electric Vehicle or Plug-in Hybrid Electric Vehicle), and whether a vehicle is eligible as a clean alternative fuel vehicle. 
+This dataset shows the Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) that are currently registered through the Washington State Department of Licensing (DOL). it includes variables such as the model year of the vehicle, the make of the vehicle, the range(i.e. distance they can travel), the type of EV (i.e. Battery Electric Vehicle or Plug-in Hybrid Electric Vehicle), and whether a vehicle is eligible as a clean alternative fuel vehicle. 
 [Data Source](https://www.kaggle.com/datasets/utkarshx27/electric-vehicle-population-data?resource=download)
 ## Visualising the Data
 A dashboard is created showing an overview of electric vehicles registered through the Washington State Department of Licensing (DOL). 
